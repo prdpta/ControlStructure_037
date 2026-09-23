@@ -4,7 +4,6 @@ def cetak_ganjil():
         n = int(input("Masukkan batas angka (n): "))
         
         print(f"Angka ganjil dari 1 sampai {n}:")
-        # Menggunakan range dengan langkah (step) 2, mulai dari 1
         for i in range(1, n + 1, 2):
             print(i, end=" ")
         print()
