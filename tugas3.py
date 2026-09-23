@@ -8,7 +8,7 @@ def fibonacci_series():
             return
 
         a, b = 0, 1
-        print(f"Deret Fibonacci hingga suku ke-{n}:")
+        print(f"Deret fibonacci hingga suku ke-{n}:")
         
         for i in range(n):
             print(a, end=" ")
