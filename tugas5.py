@@ -4,12 +4,10 @@ def cetak_desain_pola():
         n = int(input("Masukkan nilai n (misal 5): "))
         
         print("\nHasil Desain:")
-        # Perulangan baris dari 1 sampai n
         for i in range(1, n + 1):
-            # Perulangan kolom untuk mencetak angka sebanyak nilai baris (i)
             for j in range(i):
                 print(i, end=" ")
-            print() # Pindah ke baris baru setiap satu baris selesai
+            print()
             
     except ValueError:
         print("Error: Harap masukkan angka bulat!")
