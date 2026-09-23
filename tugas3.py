@@ -12,9 +12,8 @@ def fibonacci_series():
         
         for i in range(n):
             print(a, end=" ")
-            # Memperbarui nilai a dan b secara bersamaan
             a, b = b, a + b
-        print() # Baris baru di akhir
+        print()
         
     except ValueError:
         print("Error: Harap masukkan angka bulat!")
