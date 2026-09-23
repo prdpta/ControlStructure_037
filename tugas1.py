@@ -1,10 +1,8 @@
 def evaluasi_performa():
     print("--- Program Evaluasi Performa Mahasiswa ---")
     try:
-        # Mengambil input persentase dari pengguna (bisa berupa desimal)
         persentase = float(input("Masukkan persentase nilai (%): "))
         
-        # Percabangan untuk menentukan predikat
         if persentase >= 90:
             print("Predikat: Excellent performance")
         elif persentase >= 80:
